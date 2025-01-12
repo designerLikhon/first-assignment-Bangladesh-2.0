@@ -1,0 +1,731 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* font-family: "Fira Sans", serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(241, 241, 243, 1);
+}
+
+/* Navbar Style */
+
+nav {
+  width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Fira Sans", serif;
+}
+
+nav h1 {
+  color: #0e0e0e;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+nav h4 {
+  color: #006a50;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid #006a50;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+nav h4:hover {
+  background-color: #006a50;
+  color: #fff;
+}
+
+/* Banner Section Style */
+
+.banner {
+  display: flex;
+  width: 1280px;
+  height: 560px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  border-radius: 24px;
+  background: #c6e4d6;
+}
+
+.banner .banner-text h4 {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: "Fira Sans";
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.banner .banner-text h1 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.banner .banner-text button {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background: #006a50;
+  padding: 17px 34px;
+  cursor: pointer;
+}
+
+.banner .banner-text button:hover {
+  background-color: #03926e;
+  border: none;
+}
+
+/* Pillars of "Bangladesh 2.0" */
+
+.pillars-bangladesh {
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: "Fira Sans", serif;
+  margin-bottom: 80px;
+}
+
+.pillars-bangladesh > h1 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.four-pillars {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 24px;
+}
+
+.pillars {
+  width: 302px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 24px;
+}
+
+.pillars:hover {
+  background-color: #c6e4d6;
+  cursor: pointer;
+}
+
+.first > img {
+  margin-bottom: 24px;
+}
+
+.first > h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.first > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.second > img {
+  margin-bottom: 24px;
+}
+
+.second > h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.second > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.third > img {
+  margin-bottom: 24px;
+}
+
+.third > h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.third > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.four > img {
+  margin-bottom: 24px;
+}
+
+.four > h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.four > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Vision of Future section */
+
+.visoin-future {
+  width: 1280px;
+  margin: 0 auto;
+}
+.visoin-future > h1 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.visoin-future > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 32px;
+}
+
+.vision-cards {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  font-family: "Fira Sans";
+  margin-bottom: 32px;
+}
+
+.visionOne {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.visionOne:hover {
+  background-color: #a7c3f4;
+}
+
+.visionOne > h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.visionOne > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.visionOne > button {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #5490f5;
+  cursor: pointer;
+}
+
+.visionOne > button:hover {
+  background-color: #2d63b5;
+}
+
+.visionTwo {
+  padding: 32px;
+  border-radius: 16px;
+  border: 0px solid #5490f5;
+  background: #c6e4d6;
+  position: relative;
+}
+
+.visionTwo:hover {
+  background-color: #9bcab4;
+}
+
+.visionTwo > h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.visionTwo > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 12px;
+}
+
+.visionTwo > button {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #09a15c;
+  position: absolute;
+  bottom: 32px;
+  cursor: pointer;
+}
+
+.visionTwo > button:hover {
+  background-color: #03673d;
+}
+
+.visionThree {
+  padding: 24px;
+  border-radius: 16px;
+  background: #f7ebcf;
+  position: relative;
+}
+
+.visionThree:hover {
+  background-color: #f0dcb3;
+}
+
+.visionThree > h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.visionThree > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 12px;
+}
+
+.visionThree > button {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ffc239;
+  position: absolute;
+  bottom: 24px;
+  cursor: pointer;
+}
+
+.visionThree > button:hover {
+  background-color: #e0a800;
+}
+
+/* Quote Section */
+
+.quote {
+  width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 48px 24px;
+  margin-bottom: 80px;
+  background-image: url("assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: 24px;
+  background-position-y: 25px;
+}
+
+.quote > p {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.quote > h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.quote > h5 {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+/* Recent News Section */
+
+.recent-news {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.recent-news > h1 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.recent-news > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.newscard-one {
+  display: flex;
+  padding: 48px;
+  gap: 32px;
+  border-radius: 24px;
+  background: #fff;
+}
+
+.newscard-img > img {
+  border-radius: 24px;
+}
+
+.newscard-info > h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.newscard-info > h4 {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.newscard-info > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 12px;
+}
+
+.newscard-info > button {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background: #006a50;
+  padding: 13px 26px;
+  margin-top: 32px;
+}
+
+.newscard-info > button:hover {
+  background-color: #03926e;
+  cursor: pointer;
+}
+
+.newscard-two {
+  display: flex;
+  padding: 48px;
+  gap: 32px;
+  border-radius: 24px;
+  background: #fff;
+  margin-top: 24px;
+}
+
+.newscard-three {
+  display: flex;
+  padding: 48px;
+  gap: 32px;
+  border-radius: 24px;
+  background: #fff;
+  margin-top: 24px;
+}
+
+/* Donate Today Section */
+
+.donate {
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.donate > h1 {
+  color: #0e0e0e;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.donate > p {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.taka {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.taka > h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 40px;
+  margin-bottom: 32px;
+}
+
+.taka > h2:hover {
+  background-color: #c6e4d6;
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.input > form > input {
+  width: 1032px;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 20px 40px;
+}
+
+.input > form > input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.input-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.input-btn > button {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  background: #006a50;
+  padding: 17px 34px;
+}
+
+.input-btn > button:hover {
+  background-color: #03926e;
+  cursor: pointer;
+}
+
+/* NEWS LETTER Section */
+
+.news-letter {
+  width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border-radius: 24px;
+  background: #c6e4d6;
+  padding: 80px 100px;
+}
+
+.news-letter h1 {
+  color: #0e0e0e;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.news-letter p {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.news-letter h4 {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.news-letter form {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.news-letter form input {
+  width: 600px;
+  height: 55px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  background: #fff;
+  padding: 18px 40px;
+}
+
+.news-letter form input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.news-letter form button {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background: #006a50;
+  padding: 17px 34px;
+  height: 55px;
+}
+
+.news-letter form button:hover {
+  background-color: #03926e;
+  cursor: pointer;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: #fff;
+  margin-top: 80px;
+
+  box-sizing: border-box;
+}
+
+.footer {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer hr {
+  width: 1122px;
+  height: 1px;
+  border-color: rgba(14, 14, 14, 0.1);
+  text-align: center;
+}
+
+.footer-head h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  gap: 23px;
+  margin-bottom: 50px;
+}
+
+.footer-links > img {
+  width: 24px;
+  height: 24px;
+}
